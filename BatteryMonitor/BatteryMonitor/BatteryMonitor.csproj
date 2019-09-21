@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CB1F258D-1130-41B3-AF68-5755A59AC0DC}</ProjectGuid>
+    <ProjectGuid>{E75BF3E7-ACCF-433F-BAF5-8E6A0DB7CCB1}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>BatteryMonitor</RootNamespace>
     <AssemblyName>BatteryMonitor</AssemblyName>
@@ -54,9 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
